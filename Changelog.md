@@ -5,6 +5,8 @@ Bug Fixes:
 
 * Rename private `LegacyMacherAdapter` constant to `LegacyMatcherAdapter`
   to fix typo. (Abdelkader Boudih, #563)
+* Make the `contain_exactly` matcher work with arrays that contain hashes in
+  arbitrary ordering. (Sam Phippen, #578)
 
 ### 3.0.1 / 2014-06-12
 [Full Changelog](http://github.com/rspec/rspec-expectations/compare/v3.0.0...v3.0.1)
